@@ -55,13 +55,13 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
   - 利用PWM控制伺服馬達：發送週期為20ms的PWM訊號
   - use pigpio. 有專用於伺服馬達控制的API  (vs. writingpi,bcm2835提供之PWM API 僅能控制一個gpio輸出PWM訊號)
   
-###實際產出
+###實際產出（以下列出部份功能）
 * 外觀
-  ![end product](https://github.com/NCNU-OpenSource/LAST/blob/master/images/IMG_2826.JPG?raw=true "end product")
-* 影像放大
-  ![enlarge zoom](https://github.com/NCNU-OpenSource/LAST/blob/master/images/enable%20zoom.png?raw=true)
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/IMG_2826.JPG?raw=true" alt="end profuct" height="360" width="480">
+ * 影像放大
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/enable%20zoom.png?raw=true" alt="enlarge zoom" height="360" width="480">
 * 操作界面
-  ![end product](https://github.com/NCNU-OpenSource/LAST/blob/master/images/ui.png?raw=true)
+   <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/ui.png?raw=true" alt="control ui" height="360" width="480">
 
 ### Compilation
 
