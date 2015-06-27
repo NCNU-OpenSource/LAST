@@ -30,22 +30,23 @@ For the Graphic Version, pls go to the following link:Slide
 ###實作過程
 1.  影像處理程式直接在rpi上執行，CPU使用率達100%，有嚴重延遲現象
 
-  [處理] 於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
+  [sol] 於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
 2.  旋轉圖像時邊緣會被切到
   
-  [處理] 計算旋轉後圖形框架，再將圖像平移到框架中心點
+  [sol] 計算旋轉後圖形框架，再將圖像平移到框架中心點
     ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
 
 3.  調整hsv時發生overflow
 
-  [處理] 處理邊界值
+  [sol] 處理邊界值
   
     <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg" alt="rotateimg" height="360" width="480">
     <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg" alt="rotateimg" height="240" width="240">
 4.  抓取鏡頭影像時，起出無法及OpenCV抓取，於是我們
 
-  [處理一]另外抓取rpi camera影像的library
-  [處理二]後來載入driver(bcm2835-v412)可直接使用OpenCV來抓取影像
+  [sol.1] 另外抓取rpi camera影像的library
+
+  [sol.2] 後來載入driver(bcm2835-v412)可直接使用OpenCV來抓取影像
   
 5.  馬達控制
   - 選擇馬達
