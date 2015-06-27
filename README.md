@@ -33,4 +33,4 @@ For the Graphic Version, pls go to the following link:Slide
     於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
 > 2.  旋轉圖像時邊緣會被切到
     計算旋轉後圖形框架，再將圖像平移到框架中心點
-    ![rotateimg](//Users/sky/Desktop/last/to/img.jpg "image rotation")
+    ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
