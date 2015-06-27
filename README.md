@@ -24,7 +24,7 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
 |   項目       |       來源                      |
 |--------------|:-------------------------------:| 
 | 影像處理     | OpenCV                          |         
-| 校園團購     | vlc(fot test),h264_rtspserver   |        
+| 校園團購     | vlc(for test),h264_rtspserver   |        
 | 馬達控制     | ncurses(surface),pigpio         |          
 | 連線及多線程 | socket,pthread                  |  
 
