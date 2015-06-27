@@ -28,13 +28,12 @@ For the Graphic Version, pls go to the following link:Slide
 | 連線及多線程 | socket,pthread                  |  
 
 ###實作過程
-> 1. 影像處理
-  影像處理程式直接在rpi上執行，CPU使用率達100%，有嚴重延遲現象
-    於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
-> 2.  旋轉圖像時邊緣會被切到
-    計算旋轉後圖形框架，再將圖像平移到框架中心點
-    ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
-> 3.  調整hsv時發生overflow
-    處理邊界值
-    ![rotateimg](https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg)
-    ![rotateimg](https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg)
+> 1.影像處理程式直接在rpi上執行，CPU使用率達100%，有嚴重延遲現象</br>
+  >於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
+> 2.  旋轉圖像時邊緣會被切到</br>
+  >計算旋轉後圖形框架，再將圖像平移到框架中心點</br>
+  ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
+> 3.  調整hsv時發生overflow</br>
+  >處理邊界值
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg" alt="rotateimg" height="80" width="120">
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg" alt="rotateimg" height="80" width="80">
