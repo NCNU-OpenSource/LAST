@@ -34,3 +34,7 @@ For the Graphic Version, pls go to the following link:Slide
 > 2.  旋轉圖像時邊緣會被切到
     計算旋轉後圖形框架，再將圖像平移到框架中心點
     ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
+> 3.  調整hsv時發生overflow
+    處理邊界值
+    ![rotateimg](https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg)
+    ![rotateimg](https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg)
