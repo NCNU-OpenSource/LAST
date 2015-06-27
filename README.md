@@ -57,7 +57,8 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
   
 ###實際產出
 ![end product](https://github.com/NCNU-OpenSource/LAST/blob/master/images/IMG_2826.JPG?raw=true "end product")
-
+![enlarge zoom](https://github.com/NCNU-OpenSource/LAST/blob/master/images/enable%20zoom.png?raw=true)
+![end product](https://github.com/NCNU-OpenSource/LAST/blob/master/images/ui.png?raw=true)
 
 ### Compilation
 
