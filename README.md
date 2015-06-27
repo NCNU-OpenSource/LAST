@@ -56,6 +56,8 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
   - use pigpio. 有專用於伺服馬達控制的API  (vs. writingpi,bcm2835提供之PWM API 僅能控制一個gpio輸出PWM訊號)
   
 ###實際產出
+![end product](https://github.com/NCNU-OpenSource/LAST/blob/master/images/IMG_2826.JPG?raw=true "end product")
+
 
 ### Compilation
 
