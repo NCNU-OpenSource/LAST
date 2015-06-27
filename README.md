@@ -1,7 +1,8 @@
 # LAST
 by 1032 Practical Linux System Administration Final Report Group 10 -  賴原群 <100321003>，梁瑜芳<101213035>
 
-For the Graphic Version, pls go to the following link:Slide
+For the Graphic Version, pls go to the following link:[slide](http://www.slideshare.net/HazelLiang2/last-49903698)
+
 
 ###about LAST 
 *   Light-weight
