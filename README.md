@@ -35,5 +35,5 @@ For the Graphic Version, pls go to the following link:Slide
   ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
 > 3.  調整hsv時發生overflow</br>
   >處理邊界值</br>
-  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg" alt="rotateimg" height="480" width="720">
-  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg" alt="rotateimg" height="360" width="360">
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg" alt="rotateimg" height="360" width="480">
+  <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-rgb.png?raw=true/LAST/master/images/last.rgb.jpg" alt="rotateimg" height="240" width="240">
