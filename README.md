@@ -91,12 +91,14 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
 
 
 ###Assignments
-影像處理：kent, nico
-馬達控制：kent
-備材：kent
-組裝：kent, nico
-文件：nico
-報告：kent,nico
+* 影像處理：kent, nico
+* 馬達控制：kent
+* 備材：kent
+* 組裝：kent, nico
+* 文件：nico
+* 報告：kent,nico
 
-###Referencs
+###References
+* [OpenCV](http://docs.opencv.org)
+* [圖像幾何變換：旋轉，縮放，斜切](http://blog.csdn.net/xiaowei_cqu/article/details/7616044)
 
