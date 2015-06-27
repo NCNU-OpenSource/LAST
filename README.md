@@ -16,7 +16,7 @@ For the Graphic Version, pls go to the following link:[slide](http://www.slidesh
 | 課程提供 |  raspbery pi           |  //       |        
 | 校園團購 |    攝影鏡頭            |  $847     |      
 | 網路     | SG90 9G伺服器＊2       |  $54.8    |        
-| 網路     | 公對母40條杜邦線(6used)|  $54.8    |
+| 網路     | 公對母40條杜邦線(6used)|  $20      |
 | 網路     | usb-to-ttl             |  $30      |        
 | 網路     | 平移/傾斜伺服器支架    |  $250     |        
 
