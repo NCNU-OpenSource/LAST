@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(refactored_motion_detection)
+find_package(OpenCV REQUIRED)
+add_executable(refactored_motion_detection.exe refactored_motion_detection.cpp)
+target_link_libraries(refactored_motion_detection.exe ${OpenCV_LIBS} pthread)

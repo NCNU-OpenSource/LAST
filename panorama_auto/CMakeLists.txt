@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(panorama_auto)
+find_package(OpenCV REQUIRED)
+add_executable(panorama_auto.exe panorama_auto.cpp)
+target_link_libraries(panorama_auto.exe ${OpenCV_LIBS} rt pthread pigpio)

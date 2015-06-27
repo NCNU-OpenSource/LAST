@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(remote_panorama_auto)
+find_package(OpenCV REQUIRED)
+add_executable(remote_panorama_auto.exe remote_panorama_auto.cpp)
+target_link_libraries(remote_panorama_auto.exe ${OpenCV_LIBS} pthread)
