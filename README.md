@@ -55,3 +55,33 @@ For the Graphic Version, pls go to the following link:Slide
   - use pigpio. 有專用於伺服馬達控制的API  (vs. writingpi,bcm2835提供之PWM API 僅能控制一個gpio輸出PWM訊號)
   
 ###實際產出
+
+### Compilation
+
+##### Required Libraries
+
+1. ncureses
+
+    `sudo apt-get install libncurses5-dev`
+
+2. OpenCV
+
+    [Installation in Linux](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation)
+
+3. pigpio
+
+    [Download & Install](http://abyz.co.uk/rpi/pigpio/download.html)
+
+* For directories contain `CMakeLists.txt`
+
+    `cd `***directory***
+
+    `cmake .`
+
+    `make`
+
+* Others
+
+    `cd `***directory***
+
+    `make`
