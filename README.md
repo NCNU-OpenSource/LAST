@@ -32,7 +32,7 @@ For the Graphic Version, pls go to the following link:Slide
   >於是我們將影像從rpi以串流的方式傳出，由更高效能的電腦接手處理
 > 2.  旋轉圖像時邊緣會被切到</br>
   >計算旋轉後圖形框架，再將圖像平移到框架中心點</br>
-  ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)
+  ![rotateimg](https://raw.githubusercontent.com/NCNU-OpenSource/LAST/master/images/last-rotateimg.jpg)</br>
 > 3.  調整hsv時發生overflow</br>
   >處理邊界值</br>
   <img src="https://github.com/NCNU-OpenSource/LAST/blob/master/images/last-hsv.png?raw=true/LAST/master/images/last-hsv.jpg" alt="rotateimg" height="360" width="480">
